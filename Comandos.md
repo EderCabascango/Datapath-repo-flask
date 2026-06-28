@@ -1,0 +1,22 @@
+# Creas tu Virtual Environment con Python 3.11
+MLOps-AZURE-Iris
+
+# Activas tu entorno virtual:
+conda activate MLOps-AZURE-Iris
+
+# Instalar los Requirements:
+pip install -r requirements.txt
+
+# Ejecutamos nuestro App de Flask con:
+flask run
+
+# Crear un repositorio de GitHub:
+MLOps15-Deploy-Azure-Problema-Iris
+
+# Subimos los archivos a nuestro GitHub
+git init
+git add .
+git commit -m "Deploy Azure v1"
+git branch -M main
+git remote add origin https://github.com/KevinInoCol....
+git push -u origin main
